@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["php83", "nginx", "php83Extensions.pdo_pgsql", "php83Extensions.pdo"]
+
+[start]
+cmd = "nginx -g 'daemon off;'"
